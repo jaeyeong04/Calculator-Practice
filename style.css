@@ -1,0 +1,35 @@
+#screen {
+  background-color: #010101;
+  height: 540px;
+  aspect-ratio: 9/16.9;
+  border-radius: 30px;
+  text-align: center;
+  margin: auto;
+}
+
+#button-group {
+  place-items: center;
+  display: grid;
+  padding-top: 190px;
+  margin: auto;
+  height: 320px;
+  width: 270px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.button {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  font-size: 30px;
+  box-shadow: none;
+}
+
+#light-grey {
+  background-color: #636262;
+}
+
+#dark-grey {
+  background-color: #373739;
+}
