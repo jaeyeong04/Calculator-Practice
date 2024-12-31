@@ -1,17 +1,26 @@
-#screen {
+.screen {
   background-color: #010101;
   height: 540px;
   aspect-ratio: 9/16.9;
   border-radius: 30px;
-  text-align: center;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display {
+  color: white;
+  padding-top: 20px;
+  margin-right: 20px;
+  width: 250px;
+  text-align: right;
+  font-size: 50px;
 }
 
 #button-group {
   place-items: center;
   display: grid;
-  padding-top: 190px;
-  margin: auto;
   height: 320px;
   width: 270px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -26,10 +35,25 @@
   box-shadow: none;
 }
 
-#light-grey {
-  background-color: #636262;
+#delete-button {
+  background: none;
+  color: #63fe7e;
+  font-size: 20px;
+  border: none;
+  align-self: flex-end;
+  margin-right: 25px;
+  padding-top: 80px;
+  margin-bottom: 20px;
 }
 
-#dark-grey {
+#LightGrey-GreenButton {
+  border: none;
+  background-color: #636262;
+  color: #63fe7e;
+}
+
+#DarkGrey-WhiteButton {
+  border: none;
   background-color: #373739;
+  color: white;
 }
